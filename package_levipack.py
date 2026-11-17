@@ -5,7 +5,7 @@ import zipfile
 from pathlib import Path
 
 NAME = "SodiumLevi"
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 
 def main() -> int:
@@ -22,8 +22,8 @@ def main() -> int:
     manifest = {
         "type": "preload-native",
         "name": NAME,
-        "author": "SodiumLevi",
-        "description": "Optimizacion para Minecraft Bedrock sin perder calidad visual: prioridad del hilo de render, Performance Hint y limitador de FPS opcional.",
+        "author": "erickzgcs",
+        "description": "Optimizacion para Minecraft Bedrock: modos de rendimiento, control de CPU/termico y resolucion. Hecho por erickzgcs.",
         "version": VERSION,
         "entry": a.library.name,
         "icon": "icon.png",
